@@ -20,7 +20,7 @@ function ConvertNums(input){
         });
         output += ",";
     });
-    return output.slice(0, -1)
+    return output.slice(0, -1);
 }
   
 let input1 = [3,25,209];
