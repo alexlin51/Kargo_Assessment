@@ -20,7 +20,7 @@ function ConvertNums(input){
         });
         output += ",";
     });
-    return output;
+    return output.slice(0, -1)
 }
   
 let input1 = [3,25,209];
@@ -31,7 +31,7 @@ console.log(ConvertNums(input2));
 
 // Addition test cases
 let test1 = [0,1,2,3,4,5,6,7,8,9,10];
-console.log(ConvertNums(test1))
+console.log(ConvertNums(test1));
 
 let test2 = [0123456789];
-console.log(ConvertNums(test2))
+console.log(ConvertNums(test2));
