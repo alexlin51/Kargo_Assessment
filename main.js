@@ -23,4 +23,4 @@ function ConvertNums(input){
     console.log(output.slice(0, -1));
 }
 
-ConvertNums(process.argv.splice(2))
+ConvertNums(process.argv.splice(2));
