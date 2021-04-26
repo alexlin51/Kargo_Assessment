@@ -1,4 +1,4 @@
-# Kargo_Assessment
+# Kargo Assessment
 Kargo Software Engineer Intern Assessment  
   
 Question:Convert an array of integers into an array of strings representing the phonetic equivalent of the integer.  
